@@ -7,10 +7,7 @@ Created on Wed Nov 30 11:21:25 2016
 
 import numpy as np
 import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
 
-from sklearn.gaussian_process import GaussianProcessRegressor
-from sklearn.gaussian_process.kernels import RBF,WhiteKernel
 import math
 from scipy.spatial.distance import cdist,pdist,squareform
 from scipy.optimize import minimize
