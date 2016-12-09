@@ -140,7 +140,7 @@ if __name__=="__main__":
     X_train=np.random.random((150,1))*20.0-10.0
     y_train=sincsig(X_train[:,0])
     
-    X_std = 1.0*np.ones_like(X_train)#np.random.random(X_train.shape)*2.0+0.5
+    X_std = np.random.random(X_train.shape)*2.0+0.5
     y_std= 0.1*np.ones_like(y_train)
     y_train += np.random.normal(0.0,y_std)
     X_train += np.random.normal(0.0,X_std)
