@@ -8,3 +8,6 @@ Papers:
 -Learning Gaussian Process Models from Uncertain Data - Patrick Dallaire, Camille Besse, and Brahim Chaib-draa
 
 -Approximate Methods for Propagation of Uncertainty with Gaussian Process Model. PhD thesis, University of Glasgow, Glasgow, UK (2004)
+
+
+gp_regressor.py contains the Gaussian Process Regression class and an example from the former paper.
