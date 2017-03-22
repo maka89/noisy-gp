@@ -6,4 +6,5 @@ Using noisy inputs can give the LML many local maxima. Thus it is useful to supp
 Papers:
 
 -Learning Gaussian Process Models from Uncertain Data - Patrick Dallaire, Camille Besse, and Brahim Chaib-draa
+
 -Approximate Methods for Propagation of Uncertainty with Gaussian Process Model. PhD thesis, University of Glasgow, Glasgow, UK (2004)
